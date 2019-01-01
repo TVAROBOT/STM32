@@ -1,2 +1,4 @@
 # STM32
-Projects on the STM32F103 devices using Keil uVision and CubeMX 
+This Project is a simple CAN BUS example on the STM32F103C8T6 "Blue pill" controller and was compiled in Keil uVision IDE together with CubeMx
+
+I was looking for an example for CAN BUS on the Blue pill and could not find any Specific to the blue pill so here are my Files please enjoy
