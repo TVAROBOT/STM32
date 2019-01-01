@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"can_bus_tutorial\startup_stm32f103xb.o"
+"can_bus_tutorial\main.o"
+"can_bus_tutorial\stm32f1xx_it.o"
+"can_bus_tutorial\stm32f1xx_hal_msp.o"
+"can_bus_tutorial\stm32f1xx_hal_gpio_ex.o"
+"can_bus_tutorial\stm32f1xx_hal_can.o"
+"can_bus_tutorial\stm32f1xx_hal_tim.o"
+"can_bus_tutorial\stm32f1xx_hal_tim_ex.o"
+"can_bus_tutorial\stm32f1xx_hal_uart.o"
+"can_bus_tutorial\stm32f1xx_hal.o"
+"can_bus_tutorial\stm32f1xx_hal_rcc.o"
+"can_bus_tutorial\stm32f1xx_hal_rcc_ex.o"
+"can_bus_tutorial\stm32f1xx_hal_gpio.o"
+"can_bus_tutorial\stm32f1xx_hal_dma.o"
+"can_bus_tutorial\stm32f1xx_hal_cortex.o"
+"can_bus_tutorial\stm32f1xx_hal_pwr.o"
+"can_bus_tutorial\stm32f1xx_hal_flash.o"
+"can_bus_tutorial\stm32f1xx_hal_flash_ex.o"
+"can_bus_tutorial\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Can_Bus_Tutorial\Can_Bus_Tutorial.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Can_Bus_Tutorial.map" -o Can_Bus_Tutorial\Can_Bus_Tutorial.axf
